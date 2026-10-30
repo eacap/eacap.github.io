@@ -1,0 +1,18 @@
+---
+title: Announcements
+layout: page
+---
+<p>Official news and notices from the conference organizers.</p>
+{% if site.posts.size > 0 %}
+<div class="news-list all-news">
+{% for post in site.posts %}
+  <a class="news-item" href="{{ post.url | relative_url }}">
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b %Y' }}</time>
+    <span>{{ post.title | escape }}</span>
+    <span aria-hidden="true">↗</span>
+  </a>
+{% endfor %}
+</div>
+{% else %}
+<p class="empty-state">No announcements have been published yet.</p>
+{% endif %}

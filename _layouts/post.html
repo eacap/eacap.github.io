@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article class="standard-page">
+  <a class="back-link" href="{{ '/announcements/' | relative_url }}">← All announcements</a>
+  <p class="eyebrow">Announcement · {{ page.date | date: '%d %B %Y' }}</p>
+  <h1>{{ page.title | escape }}</h1>
+  <div class="prose">{{ content }}</div>
+</article>

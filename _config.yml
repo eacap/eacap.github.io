@@ -1,0 +1,22 @@
+title: EAGCAP
+description: East Asian graduate philosophy conference
+url: "https://eagcap.github.io"
+baseurl: ""
+timezone: Asia/Seoul
+markdown: kramdown
+permalink: /announcements/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md

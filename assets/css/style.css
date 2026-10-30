@@ -1,0 +1,79 @@
+/* EAGCAP STYLE GUIDE: change these variables to redesign your website.
+   Brand colors, page widths, typefaces, and corner radius are all yours. */
+:root {
+  --background: #fbfaf7;
+  --foreground: #1e2c36;
+  --muted: #606a70;
+  --accent: #3e604c;
+  --accent-foreground: #fffefb;
+  --border: #d8dedb;
+  --panel: #e9eeeb;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --page-width: 1120px;
+  --radius: 6px;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--foreground); font: 16px/1.65 var(--sans); }
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--accent); }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.site-shell { max-width: var(--page-width); margin: 0 auto; padding: 0 32px; }
+.site-header { display: flex; justify-content: space-between; align-items: center; gap: 28px; padding: 27px 0; border-bottom: 1px solid var(--border); }
+.wordmark { font: bold 27px/1 var(--serif); letter-spacing: -.04em; }
+.wordmark-dot { color: var(--accent); }
+.nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 13px; font-weight: 650; letter-spacing: .015em; }
+.eyebrow, .tiny-label { font: 700 11px/1.4 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+.hero { padding: 100px 0 90px; }
+.hero h1 { margin: 19px 0 22px; max-width: 850px; font: 400 clamp(53px, 7.4vw, 110px)/1.06 var(--serif); letter-spacing: -.055em; }
+.hero-intro { max-width: 615px; margin: 0; font-size: clamp(17px, 2vw, 21px); color: var(--muted); }
+.hero-actions { margin-top: 33px; display: flex; flex-wrap: wrap; gap: 12px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 18px; border: 1px solid var(--accent); border-radius: var(--radius); padding: 11px 19px; font-weight: 600; font-size: 14px; min-height: 46px; }
+.btn-primary { background: var(--accent); color: var(--accent-foreground); }
+.btn-primary:hover { color: var(--accent-foreground); filter: brightness(.9); }
+.btn-secondary { color: var(--accent); }
+.btn-secondary:hover { background: var(--panel); }
+.info-strip { display: grid; grid-template-columns: 1fr 1.35fr 1.2fr; gap: 24px; padding: 24px 0 29px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.info-strip div { display: flex; flex-direction: column; gap: 8px; }
+.info-strip strong { font-size: 14px; line-height: 1.45; font-weight: 600; }
+.content-section { padding: 82px 0; }
+.two-column { display: grid; grid-template-columns: 1fr 1.5fr; gap: 70px; }
+h2 { font: 400 clamp(30px, 4vw, 48px)/1.12 var(--serif); letter-spacing: -.035em; margin: 13px 0 20px; }
+.news-item { display: grid; grid-template-columns: 108px 1fr 16px; gap: 14px; align-items: center; padding: 19px 0; border-bottom: 1px solid var(--border); }
+.news-item:first-child { border-top: 1px solid var(--border); }
+.news-item time { font-size: 12px; color: var(--muted); }
+.news-item span:nth-child(2) { font-weight: 600; }
+.text-link, .back-link { color: var(--accent); font-size: 14px; font-weight: 700; }
+.text-link { display: inline-block; margin-top: 22px; }
+.empty-state { color: var(--muted); font-style: italic; }
+.feature-panel { margin-bottom: 100px; padding: 42px 46px; background: var(--panel); display: flex; justify-content: space-between; align-items: center; gap: 40px; }
+.feature-panel h2 { margin-bottom: 12px; }
+.feature-panel p:not(.eyebrow) { max-width: 520px; color: var(--muted); }
+.standard-page { min-height: 63vh; padding: 70px 0 100px; max-width: 850px; }
+.standard-page h1 { font: 400 clamp(42px, 6vw, 72px)/1.13 var(--serif); letter-spacing: -.045em; margin: 16px 0 38px; }
+.prose { max-width: 730px; }
+.prose p, .prose li { font-size: 17px; line-height: 1.8; }
+.prose h2 { margin-top: 42px; }
+.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.prose .news-list { margin-top: 25px; }
+.edition-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; margin-top: 30px; }
+.edition-card { border: 1px solid var(--border); padding: 27px; display: flex; flex-direction: column; gap: 10px; }
+.edition-year { font: 45px/1.1 var(--serif); }
+.edition-card a { font-weight: 700; }
+.site-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding: 30px 0 40px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
+@media (max-width: 720px) {
+  .site-shell { padding: 0 20px; }
+  .site-header { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .nav { gap: 8px 16px; }
+  .hero { padding: 70px 0; }
+  .info-strip { grid-template-columns: 1fr; gap: 22px; }
+  .two-column { grid-template-columns: 1fr; gap: 16px; }
+  .content-section { padding: 58px 0; }
+  .news-item { grid-template-columns: 1fr 16px; gap: 4px 8px; }
+  .news-item time { grid-column: 1 / -1; }
+  .news-item span:nth-child(2) { grid-column: 1; }
+  .feature-panel { align-items: flex-start; flex-direction: column; padding: 32px 26px; margin-bottom: 70px; }
+  .standard-page { padding: 50px 0 75px; }
+  .edition-grid { grid-template-columns: 1fr; }
+}

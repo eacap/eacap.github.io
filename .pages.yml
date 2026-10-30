@@ -1,0 +1,168 @@
+# Pages CMS editor settings; installed in repository root.
+media:
+  input: assets/uploads
+  output: /assets/uploads
+
+content:
+  - name: announcements
+    label: Announcements
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{title}.md"
+    format: yaml-frontmatter
+    view:
+      fields: [title, date, published]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Publication date
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+      - name: published
+        label: Publish this announcement
+        type: boolean
+        default: true
+      - name: body
+        label: Announcement text
+        type: rich-text
+        options:
+          format: markdown
+
+  - name: homepage
+    label: Home page settings
+    type: file
+    path: _data/home.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: brand
+        label: Short name
+        type: string
+      - name: full_name
+        label: Conference full name (editable draft)
+        type: string
+      - name: year
+        label: Current year
+        type: string
+      - name: label
+        label: Heading label
+        type: string
+      - name: headline
+        label: Big headline
+        type: string
+      - name: intro
+        label: Introductory text
+        type: text
+      - name: date_line
+        label: Conference dates
+        type: string
+      - name: location
+        label: Venue summary
+        type: string
+      - name: cfp_status
+        label: CFP status
+        type: string
+      - name: submission_url
+        label: External submission form URL (leave blank until ready)
+        type: string
+      - name: contact_email
+        label: Conference email (leave blank until ready)
+        type: string
+
+  - name: about
+    label: About page
+    type: file
+    path: about/index.md
+    format: yaml-frontmatter
+    operations:
+      delete: false
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
+
+  - name: cfp
+    label: Call for Papers page
+    type: file
+    path: cfp/index.md
+    format: yaml-frontmatter
+    operations:
+      delete: false
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
+
+  - name: program
+    label: Program page
+    type: file
+    path: program/index.md
+    format: yaml-frontmatter
+    operations:
+      delete: false
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
+
+  - name: venue
+    label: Venue and travel page
+    type: file
+    path: venue/index.md
+    format: yaml-frontmatter
+    operations:
+      delete: false
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
+
+  - name: contact
+    label: Contact page
+    type: file
+    path: contact/index.md
+    format: yaml-frontmatter
+    operations:
+      delete: false
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
+
+  - name: editions
+    label: Conference editions
+    type: file
+    path: _data/years.yml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: year
+        label: Year
+        type: string
+      - name: dates
+        label: Conference dates
+        type: string
+      - name: location
+        label: Location
+        type: string
+      - name: link
+        label: Program/archive URL (optional)
+        type: string
