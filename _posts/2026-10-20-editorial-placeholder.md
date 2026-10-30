@@ -1,6 +1,6 @@
 ---
-title: Replace this sample notice
-published: false
+title: Sample notice
 date: 2026-10-20
+published: false
 ---
-This is an unpublished demonstration announcement. Edit it or delete it using Pages CMS.
+This is an unpublished demonstration announcement.
