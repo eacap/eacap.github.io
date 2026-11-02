@@ -16,3 +16,57 @@ layout: page
 {% else %}
 <p class="empty-state">No announcements have been published yet.</p>
 {% endif %}
+
+<div class="announcements-admin">
+  <a href="https://app.pagescms.org/eacap/eacap.github.io/main/collection/announcements"
+     target="_blank"
+     rel="noopener noreferrer">
+  Admin <svg width="12" height="12" viewBox="0 0 24 24"
+  fill="none" stroke="currentColor" stroke-width="1.7"
+  stroke-linecap="round" stroke-linejoin="round"
+  style="vertical-align: -1px; margin-left: 3px;"
+  aria-hidden="true">
+  <path d="M15 3h6v6"/>
+  <path d="M10 14 21 3"/>
+  <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+</svg>
+  </a>
+</div>
+
+<style>
+/* Remove underlines from announcement links */
+.news-list .news-item,
+.news-list .news-item:hover,
+.news-list .news-item:focus-visible,
+.news-list .news-item time,
+.news-list .news-item span {
+  text-decoration: none !important;
+}
+
+/* Underline only the arrow on hover */
+.news-list .news-item:hover span[aria-hidden="true"],
+.news-list .news-item:focus-visible span[aria-hidden="true"] {
+  text-decoration: underline !important;
+  text-underline-offset: 5px;
+}
+
+.announcements-admin {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 28px;
+}
+
+.announcements-admin a {
+  font-size: 0.7rem;
+  color: #999f99;
+  text-decoration: none !important;
+  opacity: 0.7;
+  transition: color 0.2s, opacity 0.2s;
+}
+
+.announcements-admin a:hover {
+  color: #416c4f;
+  opacity: 1;
+  text-decoration: none !important;
+}
+</style>

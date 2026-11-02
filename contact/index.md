@@ -37,6 +37,21 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
     opacity: 0.75;
   }
 
+.organizer-profile {
+  display: block
+  margin-top: 18px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #416c4f;
+  text-decoration: none !important;
+  width: fit-content;
+  margin: 8px 0 0 auto;
+}
+
+.organizer-profile:hover {
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+}
   @media (max-width: 600px) {
     .organizer-grid {
       grid-template-columns: 1fr;
@@ -56,6 +71,10 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
       </a>
     </h3>
     <p>Hokkaido University</p>
+    <a href="https://sites.google.com/view/arata-matsuda"
+   class="organizer-profile" target="_blank" rel="noopener noreferrer">
+  View Profile ↗
+</a>
   </div>
 
   <div class="organizer-card">
@@ -66,6 +85,10 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
       </a>
     </h3>
     <p>Seoul National University</p>
+    <a href="https://philpeople.org/profiles/hyejoon-an"
+   class="organizer-profile" target="_blank" rel="noopener noreferrer">
+  View Profile ↗
+</a>
   </div>
 
-</div>
+ </div>
