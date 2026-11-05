@@ -64,7 +64,7 @@ h2 { font: 400 clamp(30px, 4vw, 48px)/1.12 var(--serif); letter-spacing: -.035em
   .site-shell { padding: 0 20px; }
   .site-header { flex-direction: column; align-items: flex-start; gap: 20px; }
   .nav { gap: 8px 16px; }
-  .hero { padding: 70px 0; }
+  .hero { padding: 45px 0 40px; }
   .info-strip { grid-template-columns: 1fr; gap: 22px; }
   .two-column { grid-template-columns: 1fr; gap: 16px; }
   .content-section { padding: 58px 0; }
