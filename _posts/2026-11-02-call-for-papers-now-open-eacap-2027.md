@@ -12,7 +12,9 @@ The conference will take place at Seoul National University (Seoul, South Korea)
 - **Matthew Mandelkern** (New York University)
 - **Kengo Miyazono** (Hokkaido University)
 
-<p style="font-size: 13px; font-style: italic; font-weight: 400; color: #606a70; line-height: 1.5; margin: 12px 0 0;">* Further announcements to follow.</p>
+<p style="font-size: 13px; color: #606a70; font-style: italic; font-weight: 400; line-height: 1.5; margin: 12px 0;">
+  * Further announcements to follow.
+</p>
 
 The key dates are as follows:
 
