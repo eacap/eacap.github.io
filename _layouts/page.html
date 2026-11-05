@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
-<section class="standard-page">
+<section class="standard-page"> 
+{% if page.eyebrow %}
+  <p class="eyebrow">{{ page.eyebrow | escape }}</p>
+{% else %}
   <p class="eyebrow">{{ site.data.home.brand | escape }} / Information</p>
+{% endif %}
   <h1>{{ page.title | escape }}</h1>
   <div class="prose">{{ content }}</div>
 </section>
