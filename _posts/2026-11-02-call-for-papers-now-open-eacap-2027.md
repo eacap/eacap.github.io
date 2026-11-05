@@ -1,11 +1,16 @@
 ---
 title: Call for Papers Now Open — EACAP 2027
-date: 2026-11-02
+date: 2026-11-05
 published: true
 ---
 We are pleased to announce that the Call for Papers for the inaugural East Asian Graduate Conference in Analytic Philosophy (EACAP 2027) is now open.
 
 The conference welcomes submissions from graduate students in all areas of analytic philosophy, broadly construed.
+
+**Keynote Speakers** (Further announcements to follow.):
+
+- **Matthew Mandelkern** (New York University)
+- **Kengo Miyazono** (Hokkaido University)
 
 The key dates are as follows:
 
