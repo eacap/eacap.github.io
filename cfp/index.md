@@ -1,6 +1,46 @@
 ---
 title: Call for Papers
 ---
+<div class="cfp-conference-info">
+  <div class="cfp-conference-item">
+    <div class="cfp-conference-label">
+      <svg viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="1.8"
+           stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true">
+        <rect x="3" y="5" width="18" height="16" rx="2"/>
+        <path d="M16 3v4M8 3v4M3 10h18"/>
+        <circle cx="8" cy="13.5" r="0.65" fill="currentColor" stroke="none"/>
+        <circle cx="12" cy="13.5" r="0.65" fill="currentColor" stroke="none"/>
+        <circle cx="16" cy="13.5" r="0.65" fill="currentColor" stroke="none"/>
+        <circle cx="8" cy="17" r="0.65" fill="currentColor" stroke="none"/>
+        <circle cx="12" cy="17" r="0.65" fill="currentColor" stroke="none"/>
+        <circle cx="16" cy="17" r="0.65" fill="currentColor" stroke="none"/>
+      </svg>
+      <span>Conference Dates</span>
+    </div>
+    <div class="cfp-conference-value">
+      June 16–18, 2027
+    </div>
+  </div>
+
+  <div class="cfp-conference-item">
+    <div class="cfp-conference-label">
+      <svg viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="1.8"
+           stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true">
+        <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/>
+        <circle cx="12" cy="10" r="2.5"/>
+      </svg>
+      <span>Venue</span>
+    </div>
+    <div class="cfp-conference-value">
+      Seoul National University, South Korea
+    </div>
+  </div>
+</div>
+
 <p class="cfp-intro">
   We are pleased to announce the inaugural East Asian
   Graduate Conference in Analytic Philosophy (EACAP),
@@ -9,6 +49,9 @@ title: Call for Papers
   areas of analytic philosophy, broadly construed.
 </p>
 
+<p class="cfp-intro">
+  We aim to provide on-campus accommodation for accepted presenters where needed during the conference.
+</p>
 
 <style>
 .cfp-intro {
@@ -16,6 +59,61 @@ title: Call for Papers
   max-width: none;
   text-align: justify;
   text-wrap: normal;
+}
+
+/* Conference dates and venue */
+.cfp-conference-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  padding-bottom: 18px;
+  margin: 0 0 30px;
+  border-bottom: 1px solid var(--border);
+}
+
+.cfp-conference-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.cfp-conference-label svg {
+  width: 16px;
+  height: 16px;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.cfp-conference-value {
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--foreground);
+}
+
+@media (max-width: 750px) {
+  .cfp-conference-info {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+
+  .cfp-conference-label {
+    margin-bottom: 4px;
+  }
+
+  .cfp-conference-value {
+    font-size: 15px;
+  }
 }
 
   .eacap-dates {
@@ -203,19 +301,141 @@ title: Call for Papers
     width: 100%;
   }
 }
+
+
+/* Keynote Speakers */
+.cfp-keynote-card {
+  max-width: 760px;
+  margin: 30px 0 34px;
+  padding: 0;
+}
+
+/* Heading */
+.prose .cfp-keynote-card h2.cfp-keynote-heading {
+  position: relative;
+  display: table;
+  isolation: isolate;
+  width: auto;
+  margin: 0 0 14px;
+  padding: 0 4px 2px;
+  font-family: var(--sans);
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  color: var(--foreground);
+}
+
+/* Rectangular highlight */
+.cfp-keynote-heading::after {
+  content: "";
+  position: absolute;
+  left: 9%;
+  right: 0;
+  bottom: 2px;
+  height: 15px;
+  background: #dce9de;
+  border-radius: 2px;
+  transform: rotate(-1deg);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Speaker list */
+.cfp-keynote-list {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.prose .cfp-keynote-list li {
+  margin: 0 0 3px;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--foreground);
+}
+
+.cfp-keynote-list strong {
+  font-weight: 600;
+}
+
+/* Announcement note */
+.prose .cfp-keynote-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0 0;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.cfp-keynote-note svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+/* Mobile */
+@media (max-width: 750px) {
+  .prose .cfp-keynote-card h2.cfp-keynote-heading {
+    font-size: 19px;
+  }
+}
 </style>
 
-<div class="eacap-dates">
 
-  <div class="eacap-date-card">
-    <!-- Calendar icon -->
-    <svg class="eacap-date-icon" viewBox="0 0 24 24"
-         fill="none" stroke="currentColor" stroke-width="1.7"
-         stroke-linecap="round" stroke-linejoin="round"
+<div class="cfp-keynote-card">
+  <h2 class="cfp-keynote-heading">Keynote Speakers</h2>
+
+  <ul class="cfp-keynote-list">
+    <li><strong>Matthew Mandelkern</strong> (New York University)</li>
+    <li><strong>Kengo Miyazono</strong> (Hokkaido University)</li>
+  </ul>
+
+  <div class="cfp-keynote-note">
+    <svg viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="1.7"
+         stroke-linecap="round"
+         stroke-linejoin="round"
          aria-hidden="true">
-      <rect x="3" y="5" width="18" height="16" rx="2"/>
-      <path d="M16 3v4M8 3v4M3 10h18"/>
+      <circle cx="12" cy="12" r="9"/>
+      <path d="M12 11v5"/>
+      <path d="M12 8h.01"/>
     </svg>
+    <span>Further announcements to follow.</span>
+  </div>
+</div>
+
+<div class="eacap-dates">
+  <div class="eacap-date-card">
+    <!-- Calendar icon + timezone -->
+    <div style="position: relative; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+      <svg class="eacap-date-icon" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="1.7"
+           stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true">
+        <rect x="3" y="5" width="18" height="16" rx="2"/>
+        <path d="M16 3v4M8 3v4M3 10h18"/>
+      </svg>
+
+      <span style="
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: var(--sans);
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 1;
+        color: var(--muted);
+        white-space: nowrap;
+      ">UTC+09:00</span>
+    </div>
 
     <div class="eacap-date-text">
       <span class="eacap-date-label">SUBMISSION DEADLINE</span>
@@ -238,7 +458,6 @@ title: Call for Papers
       <span class="eacap-date-value">April 10, 2027</span>
     </div>
   </div>
-
 </div>
 
 <h2 class="section-heading">Submission Formats</h2>

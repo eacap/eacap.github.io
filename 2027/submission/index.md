@@ -1,8 +1,6 @@
 ---
-title: EAGCAP 2027
+title: Paper Submission
 ---
-## Paper Submission
-
 Thank you for your interest in EAGCAP 2027.
 Please read the [**Submission Guidelines**]({{ '/cfp/' | relative_url }}) carefully before submitting your paper. 
 Submissions that do not comply with the submission guidelines may be disqualified from consideration.

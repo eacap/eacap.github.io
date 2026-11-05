@@ -2,7 +2,7 @@
 title: Announcements
 layout: page
 ---
-<p>Official news and notices from the conference organizers.</p>
+
 {% if site.posts.size > 0 %}
 <div class="news-list all-news">
 {% for post in site.posts %}
@@ -68,5 +68,16 @@ layout: page
   color: #416c4f;
   opacity: 1;
   text-decoration: none !important;
+}
+
+/* Announcement title color */
+.news-list .news-item span:nth-child(2) {
+  color: var(--foreground) !important;
+  transition: color 0.2s ease;
+}
+
+.news-list .news-item:hover span:nth-child(2),
+.news-list .news-item:focus-visible span:nth-child(2) {
+  color: var(--accent) !important;
 }
 </style>

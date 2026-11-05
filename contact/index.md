@@ -5,6 +5,41 @@ title: Contact
 For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.com).
 
 <style>
+.prose h2.organizers-heading {
+  position: relative;
+  display: table;
+  isolation: isolate;
+
+  font-family: var(--sans);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  color: var(--foreground);
+
+  background: none;
+  padding: 0 5px 2px 2px;
+  margin-bottom: 24px;
+}
+
+/* Curved highlighter */
+.organizers-highlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.organizers-heading > span {
+  position: relative;
+  z-index: 1;
+}
+
+
   .organizer-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -59,7 +94,21 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
   }
 </style>
 
-<h2>Organizers</h2>
+<h2 class="organizers-heading">
+  <svg class="organizers-highlight"
+       viewBox="0 0 300 70"
+       preserveAspectRatio="none"
+       aria-hidden="true">
+    <path
+      d="M 65 60 C 140 56, 218 48, 282 50"
+      fill="none"
+      stroke="#dce9de"
+      stroke-width="28"
+      stroke-linecap="round"
+    />
+  </svg>
+  <span>Organizers</span>
+</h2>
 
 <div class="organizer-grid">
 
