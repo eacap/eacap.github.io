@@ -1,4 +1,6 @@
 ---
+layout: page
+eyebrow: "EACAP 2027"
 title: Call for Papers
 ---
 <div class="cfp-conference-info">
