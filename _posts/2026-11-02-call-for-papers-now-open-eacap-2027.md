@@ -7,10 +7,12 @@ We are pleased to announce that the Call for Papers for the inaugural East Asian
 
 The conference welcomes submissions from graduate students in all areas of analytic philosophy, broadly construed.
 
-**Keynote Speakers** (Further announcements to follow.):
+**Keynote Speakers**
 
 - **Matthew Mandelkern** (New York University)
 - **Kengo Miyazono** (Hokkaido University)
+
+** Further announcements to follow.*
 
 The key dates are as follows:
 
