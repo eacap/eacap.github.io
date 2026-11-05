@@ -1,5 +1,7 @@
 ---
+layout: page
 title: Paper Submission
+eyebrow: "EACAP 2027"
 ---
 Thank you for your interest in EAGCAP 2027.
 Please read the [**Submission Guidelines**]({{ '/cfp/' | relative_url }}) carefully before submitting your paper. 
