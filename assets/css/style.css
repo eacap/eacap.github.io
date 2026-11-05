@@ -64,7 +64,7 @@ h2 { font: 400 clamp(30px, 4vw, 48px)/1.12 var(--serif); letter-spacing: -.035em
   .site-shell { padding: 0 20px; }
   .site-header { flex-direction: column; align-items: flex-start; gap: 20px; }
   .nav { gap: 8px 16px; }
-  .hero { padding: 45px 0 40px; }
+  .hero { padding: 18px 0 40px; }
   .info-strip { grid-template-columns: 1fr; gap: 22px; }
   .two-column { grid-template-columns: 1fr; gap: 16px; }
   .content-section { padding: 58px 0; }
@@ -72,6 +72,6 @@ h2 { font: 400 clamp(30px, 4vw, 48px)/1.12 var(--serif); letter-spacing: -.035em
   .news-item time { grid-column: 1 / -1; }
   .news-item span:nth-child(2) { grid-column: 1; }
   .feature-panel { align-items: flex-start; flex-direction: column; padding: 32px 26px; margin-bottom: 70px; }
-  .standard-page { padding: 50px 0 75px; }
+  .standard-page { padding: 18px 0 75px; }
   .edition-grid { grid-template-columns: 1fr; }
 }
