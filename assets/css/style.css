@@ -71,7 +71,7 @@ h2 { font: 400 clamp(30px, 4vw, 48px)/1.12 var(--serif); letter-spacing: -.035em
   .news-item { grid-template-columns: 1fr 16px; gap: 4px 8px; }
   .news-item time { grid-column: 1 / -1; }
   .news-item span:nth-child(2) { grid-column: 1; }
-  .feature-panel { align-items: flex-start; flex-direction: column; padding: 32px 26px; margin-bottom: 70px; }
+  .feature-panel { align-items: flex-start; flex-direction: column; padding: 32px 26px; margin-bottom: 70px; gap: 0; }
   .standard-page { padding: 18px 0 75px; }
   .edition-grid { grid-template-columns: 1fr; }
 }
