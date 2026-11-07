@@ -45,7 +45,7 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
     margin-top: 20px;
-    width: calc(100% + 160px);
+    width: calc(100% + 120px);
   }
 
   .organizer-card {
