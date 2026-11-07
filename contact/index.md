@@ -91,8 +91,8 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
   @media (max-width: 600px) {
     .organizer-grid {
       grid-template-columns: 1fr;
-    }
-  }
+      width: 100%;
+}
 </style>
 
 <h2 class="organizers-heading">
