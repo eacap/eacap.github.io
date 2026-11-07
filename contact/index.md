@@ -119,7 +119,7 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
         Arata Matsuda
       </a>
     </h3>
-    <p>University of Oxford; Hokkaido University</p>
+    <p>University of Oxford;<br>Hokkaido University</p>
     <a href="https://sites.google.com/view/arata-matsuda"
    class="organizer-profile" target="_blank" rel="noopener noreferrer">
   View Profile ↗
