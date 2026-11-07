@@ -516,7 +516,7 @@ title: Call for Papers
 - Work published by the submission deadline will not be considered.
 - Only one submission per author is permitted. However, authors submitting to the Paper Presentation may indicate whether they would like their papers to be considered for the WIP Forum if not selected for a Paper Presentation. This option will appear when selecting 'Paper Presentation' on the submission form.
 - All submissions should be made through the online submission form linked below. If you experience difficulties accessing the form or submitting your work, please contact us at
-  <a href="mailto:eagcap@gmail.com">eagcap@gmail.com</a>.
+  <a href="mailto:eacap.info@gmail.com">eacap.info@gmail.com</a>.
 
 <div class="cfp-submit-row">
   <a href="{{ '/2027/submission/' | relative_url }}"
