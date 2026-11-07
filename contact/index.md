@@ -2,7 +2,7 @@
 title: Contact
 ---
 
-For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.com).
+For any inquiries, please contact us at [eacap.info@gmail.com](mailto:eacap.info@gmail.com).
 
 <style>
 .prose h2.organizers-heading {
