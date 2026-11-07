@@ -45,6 +45,7 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
     margin-top: 20px;
+    width: calc(100% + 160px);
   }
 
   .organizer-card {
@@ -119,7 +120,7 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
         Arata Matsuda
       </a>
     </h3>
-    <p>University of Oxford;<br>Hokkaido University</p>
+    <p>University of Oxford; Hokkaido University</p>
     <a href="https://sites.google.com/view/arata-matsuda"
    class="organizer-profile" target="_blank" rel="noopener noreferrer">
   View Profile ↗
