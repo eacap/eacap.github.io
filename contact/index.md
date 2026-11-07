@@ -73,7 +73,7 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
   }
 
 .organizer-profile {
-  display: block
+  display: block;
   margin-top: 18px;
   font-size: 0.85rem;
   font-weight: 500;
@@ -119,7 +119,7 @@ For any inquiries, please contact us at [eagcap@gmail.com](mailto:eagcap@gmail.c
         Arata Matsuda
       </a>
     </h3>
-    <p>Hokkaido University</p>
+    <p>University of Oxford; Hokkaido University</p>
     <a href="https://sites.google.com/view/arata-matsuda"
    class="organizer-profile" target="_blank" rel="noopener noreferrer">
   View Profile ↗
