@@ -1,5 +1,7 @@
 ---
 title: Venue & Travel
+sitemap: false
+noindex: true
 ---
 **Seoul National University, Seoul, South Korea**
 
