@@ -1,5 +1,6 @@
+
 title: EACAP
-description: East Asian graduate philosophy conference
+description: East Asian Graduate Conference in Analytic Philosophy
 url: "https://eacap.github.io"
 baseurl: ""
 timezone: Asia/Seoul
@@ -20,3 +21,6 @@ defaults:
 
 exclude:
   - README.md
+
+plugins:
+  - jekyll-sitemap
