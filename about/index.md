@@ -1,5 +1,7 @@
 ---
 title: About the Conference
+sitemap: false
+noindex: true
 ---
 EACAP is a graduate student conference that brings together philosophers from East Asia and beyond to engage in philosophical conversations on a broad range of topics in analytic philosophy. 
 
