@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>EACAP</title>
+  <rect width="64" height="64" fill="#fbfaf7"/>
+  <g fill="#3e604c">
+  <path d="M572 0V697H57V658H421C448 658 468 642 468 616V384H136V345H468V92C468 55 453 39 434 39H46V0Z" transform="translate(0.8233 43.0000) scale(0.031564 -0.031564)"/>
+  <path d="M592 697H480L371 401H180L71 697H26L294 -15H311ZM355 359 275 145 196 359Z" transform="translate(20.5744 42.5365) scale(0.030899 -0.030899)"/>
+  <path d="M623 0V325C623 482 495 603 345 603C196 603 65 482 65 325V0H119V329C119 455 223 549 344 549C472 549 569 441 569 329V0Z" transform="translate(38.9951 43.0000) scale(0.036484 -0.036484)"/>
+  </g>
+</svg>
