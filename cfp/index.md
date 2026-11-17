@@ -47,8 +47,8 @@ title: Call for Papers
   We are pleased to announce the inaugural East Asian
   Graduate Conference in Analytic Philosophy (EACAP),
   to be held in Seoul in June 2027. EACAP welcomes
-  submissions from current graduate students in all
-  areas of analytic philosophy, broadly construed.
+  submissions from current graduate students around the world,
+  in all areas of analytic philosophy, broadly construed.
 </p>
 
 <p class="cfp-intro">
